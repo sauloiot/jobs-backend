@@ -1,10 +1,14 @@
 # Simples Dental
 
-###Objetivo
+##OBJETIVO
 
-Desenvolva uma API que execute o CRUD completo utilizando uma interface REST que atenda aos requisitos descritos abaixo. Como framework e plataforma para executar seu BACK-END utilize o PLAY Framework conectado ao Postgresql utilizando Hibernate ou queries nativas.
+Desenvolva uma API que execute o CRUD completo atráves de uma interface REST que atenda aos requisitos descritos seção [teste](#TESTE). Você deve desenvolver em JAVA utilizando o framework [Play Framework](https://www.playframework.com/documentation/2.4.x/NewApplication) e banco de dados [Postgresql](http://www.postgresql.org/) utilize Hibernate ou queries nativas para manuplas o banco de dados.
 
-Ao finalizar o projeto faça um pull request nesse projeto em um branch órfão, e pronto =) não esqueça de deixar seus contatos no corpo do pull-request caso não os possua no `github`.
+##ENTREGA
+
+Faça um fork deste repositório suba seu nele depois abra um pull-request para que possamos da inicio a avaliação, Obrigado e boa divertimento 💪💪.
+
+##TESTE
 
 ####Contatos
 
