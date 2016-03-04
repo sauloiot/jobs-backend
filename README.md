@@ -12,9 +12,11 @@ Faça um fork deste repositório suba seu nele depois abra um pull-request para 
 
 ####Contatos
 
+```
 CHEMA DE CONTATO
   nome: String
   contato: String
+```
 
 #####API HTTP INTERFACE
 ```
@@ -44,6 +46,7 @@ RETURN Sucesso contato excluído
 
 ####Profissionais
 
+```
 SCHEMA DE PROFISSIONAL
   nome: String
   cargo: ENUM
@@ -54,6 +57,7 @@ SCHEMA DE PROFISSIONAL
   nascimento: Date
   create_data: Date
   contatos: List<SCHEMA DE CONTATO>
+```
 
 #####API HTTP INTERFACE
 ```
