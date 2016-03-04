@@ -67,7 +67,7 @@ SCHEMA DE PROFISSIONAL
 
 #####Api http interface
 ```
-GET /professeonals
+GET /professionals
   params
     q: Busca
       RETURN Lista de profissionais que contenham o texto passado em qualquer um dos seus atributos.
@@ -75,16 +75,16 @@ GET /professeonals
       RETURN Lista de profissionais apenas com os fields passados.
 RETURN Lista de profissionais.
 
-GET /professeonals/:id
+GET /professionals/:id
 RETURN O profissional que atende ao ID indicado.
 
-POST /professeonals
+POST /professionals
 RETURN Sucesso profissional cadastrado.
 
-PUT /professeonals/:id
+PUT /professionals/:id
 RETURN Altera o profissional que atende ao ID indicado.
 
-DELETE /professeonals/:id
+DELETE /professionals/:id
 RETURN Sucesso profissional excluído
 
 /**
