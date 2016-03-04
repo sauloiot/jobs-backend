@@ -8,9 +8,7 @@ Desenvolva uma API que execute o CRUD completo atráves de uma interface REST e 
 
 Faça um fork deste repositório e suba seu código nele. Depois abra um pull-request.
 
-
-
-Obrigado e boa divertimento 💪💪.
+Obrigado e bom divertimento 💪💪.
 
 
 
@@ -21,7 +19,7 @@ Obrigado e boa divertimento 💪💪.
 ####Contatos
 
 ```
-CHEMA DE CONTATO
+SCHEMA DE CONTATO
   nome: String
   contato: String
 ```
