@@ -2,7 +2,7 @@
 
 ##OBJETIVO
 
-Desenvolva uma API que execute o CRUD completo atráves de uma interface REST que atenda aos requisitos descritos seção [teste](#TESTE). Você deve desenvolver em JAVA utilizando o framework [Play Framework](https://www.playframework.com/documentation/2.4.x/NewApplication) e banco de dados [Postgresql](http://www.postgresql.org/) utilize Hibernate ou queries nativas para manuplas o banco de dados.
+Desenvolva uma API que execute o CRUD completo atráves de uma interface REST e que atenda aos requisitos descritos na seção [teste](#TESTE). A api deve ser desenvolvida em JAVA utilizando o framework [Play Framework](https://www.playframework.com/documentation/2.4.x/NewApplication) e banco de dados [Postgresql](http://www.postgresql.org/) utilize Hibernate ou queries nativas para manipular o banco de dados.
 
 ##ENTREGA
 
