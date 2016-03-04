@@ -6,11 +6,19 @@ Desenvolva uma API que execute o CRUD completo atráves de uma interface REST qu
 
 ##ENTREGA
 
-Faça um fork deste repositório suba seu nele depois abra um pull-request para que possamos da inicio a avaliação, Obrigado e boa divertimento 💪💪.
+Faça um fork deste repositório e suba seu código nele. Depois abra um pull-request.
+
+
+
+Obrigado e boa divertimento 💪💪.
+
+
+
+
 
 ##TESTE
 
-###Contatos
+####Contatos
 
 ```
 CHEMA DE CONTATO
@@ -18,7 +26,7 @@ CHEMA DE CONTATO
   contato: String
 ```
 
-####Api http interface
+#####Api http interface
 ```
 GET /contacts
   params
@@ -44,7 +52,7 @@ RETURN Sucesso contato excluído
 
 
 
-###Profissionais
+####Profissionais
 
 ```
 SCHEMA DE PROFISSIONAL
@@ -59,7 +67,7 @@ SCHEMA DE PROFISSIONAL
   contatos: List<SCHEMA DE CONTATO>
 ```
 
-####Api http interface
+#####Api http interface
 ```
 GET /professeonals
   params
