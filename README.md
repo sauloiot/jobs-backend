@@ -1,10 +1,10 @@
 # Simples Dental
 
-##OBJETIVO
+## OBJETIVO
 
 Desenvolva uma API que execute o CRUD completo atráves de uma interface REST e que atenda aos requisitos descritos na seção [teste](#TESTE). A api deve ser desenvolvida em JAVA utilizando o framework [Play Framework](https://www.playframework.com/documentation/2.4.x/NewApplication) e banco de dados [Postgresql](http://www.postgresql.org/) utilize Hibernate ou queries nativas para manipular o banco de dados.
 
-##ENTREGA
+## ENTREGA
 
 Faça um fork deste repositório e suba seu código nele. Depois abra um pull-request.
 
@@ -14,9 +14,9 @@ Obrigado e bom divertimento 💪💪.
 
 
 
-##TESTE
+## TESTE
 
-####Contatos
+#### Contatos
 
 ```
 SCHEMA DE CONTATO
@@ -24,7 +24,7 @@ SCHEMA DE CONTATO
   contato: String
 ```
 
-#####Api http interface
+##### Api http interface
 ```
 GET /contacts
   params
@@ -34,7 +34,7 @@ GET /contacts
       RETURN Lista de contatos apenas com os fields passados.
 RETURN Lista de profissionais.
 
-GET /contatcts/:id
+GET /contacts/:id
 RETURN Recupera os contato que atende ao ID indicado.
 
 POST /contacts
@@ -50,7 +50,7 @@ RETURN Sucesso contato excluído
 
 
 
-####Profissionais
+#### Profissionais
 
 ```
 SCHEMA DE PROFISSIONAL
@@ -65,7 +65,7 @@ SCHEMA DE PROFISSIONAL
   contatos: List<SCHEMA DE CONTATO>
 ```
 
-#####Api http interface
+##### Api http interface
 ```
 GET /professionals
   params
