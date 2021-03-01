@@ -31,8 +31,7 @@ GET /contacts
     q: Busca
       RETURN Lista de contatos que contenham o texto passado em qualquer um dos seus atributos.
     fields: List<String>
-      RETURN Lista de contatos apenas com os fields passados.
-RETURN Lista de profissionais.
+RETURN Lista de contatos apenas com os fields passados.
 
 GET /contacts/:id
 RETURN Recupera os contato que atende ao ID indicado.
